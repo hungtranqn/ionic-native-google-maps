@@ -36,29 +36,29 @@ this.map.addKmlOverlay(options: KmlOverlayOptions).then((kmlOverlay: KmlOverlay)
 
 ## Instance methods
 
-  -### getId()
+  ### getId()
 
     Returns the ID of instance.
 
     :arrow_right: Returns `string`
 
-  -### getMap()
+  ### getMap()
 
     Returns the map instance.
 
     :arrow_right: Returns [GoogleMap](../googlemap/README.md) instance.
 
-  -### getDefaultViewport()
+  ### getDefaultViewport()
 
     Returns the viewport to contains all overlays
 
     :arrow_right: Returns [CameraPosition](../cameraposition/README.md)&lt;[ILatLng](../ilatlng/README.md) | [ILatLng[]](../ilatlng/README.md)&gt;.
 
 
-  -### setVisible(visible)
+  ### setVisible(visible)
 
     Set marker visibility
-
+```html
     <table>
     <tr>
       <th>Params</th>
@@ -72,18 +72,18 @@ this.map.addKmlOverlay(options: KmlOverlayOptions).then((kmlOverlay: KmlOverlay)
     </tr>
     </table>
 
-
-  -### getVisible()
+```
+  ### getVisible()
 
     Returns true if the marker is visible.
 
     :arrow_right: Returns `boolean`.
 
 
-  -### setClickable(clickable)
+  ### setClickable(clickable)
 
     Changes click-ability of the KmlOverlay
-
+```html
     <table>
     <tr>
       <th>Params</th>
@@ -96,9 +96,9 @@ this.map.addKmlOverlay(options: KmlOverlayOptions).then((kmlOverlay: KmlOverlay)
       <td>true or false</td>
     </tr>
     </table>
+```
 
-
-  -### getClickable()
+  ### getClickable()
 
     Returns true if the KmlOverlay is clickable.
 
@@ -106,6 +106,6 @@ this.map.addKmlOverlay(options: KmlOverlayOptions).then((kmlOverlay: KmlOverlay)
 
 
 
-  -### remove()
+  ### remove()
 
     Remove the KmlOverlay
